@@ -21,7 +21,7 @@
             </div>
             <div class="contenedor_uno_botones">
                 <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
-                <button class="btn_desencriptar">Desencriptar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
         <section class="contenedor_dos">
@@ -30,12 +30,15 @@
                 <h2 class="texto_uno">Ningún mensaje fue encontrado</h2>
                 <p class="texto_dos">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>    
-            <textarea class="traductor" readonly></textarea>
-            <button class="btn_copiar">Copiar</button>
+            <textarea type="mensaje"  class="traductor" readonly></textarea>
+            <button class="btn_copiar" onclick="btnCopiar()">Copiar</button>
         </section>
     </main>
     <footer>
         <p >&copy; 2024 - Desarrollado por Sokka69Dev</p>
+        <a href="https://github.com/Sokka69"><img class="contacto_logoGithub" src="./img/contactoGithub.png"></a>
+        <a href="https://linkedin.com/in/mariomoralesseverin"><img class="contacto_logoLinkedin" src="./img/contactoLinkedin.png"></a>
+        
     </footer>
     <script src="./script.js"></script>
 </body>
