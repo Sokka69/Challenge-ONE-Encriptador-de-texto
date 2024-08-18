@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encriptador de texto</title>
+    
+</head>
+<body>
+    
+    <header>
+        <img class="logo" src="./img/Logo.svg" alt="Logo Alura">
+    </header> 
+    <main>
+        <section class="contenedor_uno">
+           <textarea class="text_area" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor_uno_aviso">
+                <img class="img_exclamacion" src="./img/bi_exclamation-circle-fill.svg" alt="Exclamacion">
+                <p class="mensaje_validacion">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor_uno_botones">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor_dos">
+            <div class="contenedor_dos_mensaje">
+                <img  class="img_muneco"  src="./img/Muñeco.png" alt="Imagen Muñeco">
+                <h2 class="texto_uno">Ningún mensaje fue encontrado</h2>
+                <p class="texto_dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>    
+            <textarea class="traductor" readonly></textarea>
+            <button class="btn_copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p >&copy; 2024 - Desarrollado por Sokka69Dev</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
