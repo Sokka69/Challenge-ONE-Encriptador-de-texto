@@ -15,11 +15,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
     font-family: var(--fuente-inter);
-    
     text-decoration: none;
-   
 }
 
 body{
@@ -49,7 +46,7 @@ header .logo{
 main{
     display: flex;
     flex-direction: row;
-    
+  
 }
 
 .contenedor_uno{
@@ -206,8 +203,6 @@ main{
 } 
 footer{
     background-color: var(--color-Gray400);
-    /* margin-top: 4%;
-    height: 65px; */
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem 0;
